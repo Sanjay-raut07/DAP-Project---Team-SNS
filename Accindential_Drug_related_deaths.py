@@ -28,12 +28,7 @@ file_path = os.path.join(new_folder_path, file_name)
 print(f"Directory created at: {new_folder_path}")
 print(f"File path: {file_path}")
 
-
 # ### Extracting dataset through API
-
-# In[4]:
-
-
 #Firstly we are Going to Extract our dataset through API
 # URL to fetch CSV data
 url = 'https://data.ct.gov/api/views/rybz-nyjw/rows.csv?accessType=DOWNLOAD'
