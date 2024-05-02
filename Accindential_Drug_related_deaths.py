@@ -1,11 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# ### Importing all the necessary libraries
-
-# In[1]:
-
-
+#Importing all the necessary libraries
 import requests
 import pandas as pd
 import numpy as np
@@ -19,10 +12,6 @@ import seaborn as sns
 #to ignore warnings
 import warnings
 warnings.filterwarnings('ignore')
-
-
-# In[2]:
-
 
 # Specify the folder path where you want to save the Data
 file_name = "Accidental_Drug_Related_Deaths_2012-2022.csv"
