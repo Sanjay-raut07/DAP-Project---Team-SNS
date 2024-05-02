@@ -16,12 +16,6 @@ warnings.filterwarnings('ignore')
 # Specify the folder path where you want to save the Data
 file_name = "Accidental_Drug_Related_Deaths_2012-2022.csv"
 
-
-# ### Making the Directory Global
-
-# In[3]:
-
-
 #To ensure your code is portable and the specified folder is accessible on any system,we are using
 #environment variables and the Python os module to dynamically create paths based on the 
 #user's system environment and creating the folder if not exist
